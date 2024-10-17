@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import { createContext, useReducer } from "react";
 import { initialTasks } from "../data";
-import tasksReducer from "../reducers/TaskReducer";
+import tasksReducer from "../reducers/taskReducer";
 
 export const TaskContext = createContext(null);
 export const TaskDispatchContext = createContext(null);
